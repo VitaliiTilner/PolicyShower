@@ -3,6 +3,7 @@ buildscript {
     dependencies {
         classpath "gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.14.0"
     }
+
 }
 
 plugins {
@@ -11,4 +12,7 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
     id 'com.google.dagger.hilt.android' version '2.45' apply false
 
+
 }
+
+
